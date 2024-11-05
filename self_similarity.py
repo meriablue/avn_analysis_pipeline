@@ -2,7 +2,7 @@
 """
 Created on Tue Oct  1 16:37:40 2024
 
-@author: Sakata-Woolley
+@author: Maria Pescaru, in Sakata-Woolley Lab 
 """
 
 import avn.similarity as similarity
@@ -157,8 +157,8 @@ if __name__ == "__main__":
             
 #Parameters to change:
 
-    song_directory = r'C:\Users\Sakata-Woolley\DATA\pipeline_test'
-    output_directory = r'C:\Users\Sakata-Woolley\DATA\pipeline_test_ouput'
+    song_directory = r'DIRECTORY\WITH\SONG\FILES'
+    output_directory = r'DIRECTORY\FOR\OUTPUT'
     
    #for subdir in os.listdir(song_directory):
         
