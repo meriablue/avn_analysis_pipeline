@@ -1,4 +1,3 @@
-#Author: Maria Pescaru
 
 This is a pipeline for bird song analysis that uses the packages avn: https://avn.readthedocs.io/en/latest and whisperseg: https://github.com/nianlonggu/WhisperSeg
 Scripts include automatization for: song detection, segmentation, feature analysis, comparison to tutor and variability analysis. 
