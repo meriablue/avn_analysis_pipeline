@@ -123,25 +123,20 @@ def similarity_scoring_directory(dir_path, output_dir_path):
 
 if __name__ == "__main__":
 
-    #parameters to change
-
     
-    #Make parameter 1 if you want to use for self-similarity scoring, 0 if large folder with multiple rounds
-    sim_single = 0
-
-    #Parent directory with all rounds (for sim between rounds) or bird to self-compare
-    #Parent directory should contain rounds as subdirectories 
-    directory_path = r'C:\Users\Sakata-Woolley\Desktop\olivia\learnability'
+    #Path to directory containing songs for birds you want to compare
+    directory_path = r'PATH/TO/PARENT/DIRECTORY'
 
     #Directory where comparison for each folder will be saved in a separate csv file
-    output_path = r'C:\Users\Sakata-Woolley\Desktop\olivia\learnability_output\similarity_scoring'
+    output_path = r'PATH/TO/OUTPUT'
+
+    #Boolean variable, should be set to 0 for a single round, otherwise set to one, see README for more details 
+    multiple_rounds = 
     
-    if sim_single : 
+    if ! multiple_directories : 
         
         for subdirectory in os.listdir(directory_path):
-            if subdirectory[0] != '.' and subdirectory[0] != 'M':
-                filecomp_path = os.path.join(directory_path, subdirectory, "FileComp", subdirectory)
-                similarity_scoring_directory(filecomp_path, output_path)
+                similarity_scoring_directory(directory_path, output_path)
         
     else:
     #Loop through subdirectories and call similarity_scoring
