@@ -4,9 +4,9 @@ Created on Mon Sep 23 14:09:43 2024
 
 @author: maria
 """
-
+#change this file path based on where WhisperSeg was cloned on your system. 
 import sys
-sys.path.insert(0, r"C:\Users\Sakata-Woolley\whisperSeg\WhisperSeg") #change this file path based on where WhisperSeg was cloned on your system. 
+sys.path.insert(0, r"PATH/TO/WSEG/ON/LOCAL/MACHINE") 
 
 import shutil
 import librosa
@@ -87,7 +87,7 @@ if __name__ == "__main__":
 
       #Parent directory with all rounds (for sim between rounds) or bird to self-compare
       #Parent directory should contain rounds as subdirectories 
-      directory_path = r'C:\Users\Sakata-Woolley\DATA\wseg_avn\batch_1'
+      directory_path = r'PATH/TO/DIRECTORY/WITH/ROUND'
      
       for subdirectory in os.listdir(directory_path):
           if subdirectory[0] != '.':
