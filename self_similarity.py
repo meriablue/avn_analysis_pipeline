@@ -159,10 +159,7 @@ if __name__ == "__main__":
 
     song_directory = r'DIRECTORY\WITH\SONG\FILES'
     output_directory = r'DIRECTORY\FOR\OUTPUT'
-    
-   #for subdir in os.listdir(song_directory):
-        
-    #   subdir_path = os.path.join(song_directory, subdir)
+   
         
     for subdir in os.listdir(song_directory):
                 
